@@ -1,5 +1,5 @@
 body {
-  margin: 30px;
+  margin: 0;
 }
 
 /**
@@ -39,12 +39,12 @@ body {
   grid-column: 1;
   grid-row: 1;
   border-style: solid;
-  margin: 50px;
+  margin: 10px;
 }
-#score    { grid-column: 1; grid-row: 3; border-style: solid; margin: 50px; }
-#stats    { grid-column: 1; grid-row: 2; align-self: start; border-style: solid; margin: 50px; }
-#board    { grid-column: 2; grid-row: 1 / span 2;  border-style: solid; margin: 50px;}
-#controls { grid-column: 2; grid-row: 3; justify-self: center; border-style: solid; margin: 50px; }
+#score    { grid-column: 1; grid-row: 3; border-style: solid; margin: 10px; }
+#stats    { grid-column: 1; grid-row: 2; align-self: start; border-style: solid; margin: 10px; }
+#board    { grid-column: 2; grid-row: 1 / span 2;  border-style: solid; margin: 10px;}
+#controls { grid-column: 2; grid-row: 3; justify-self: center; border-style: solid; margin: 10px; }
 
 
 @media (orientation: portrait) {
