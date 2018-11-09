@@ -1,5 +1,8 @@
 body {
   margin: 0;
+  padding: 0;
+  font-family: "Segoe UI"!important, sans-serif;
+  background-color: #beeeb9;
 }
 
 /**
@@ -40,12 +43,51 @@ body {
   grid-row: 1;
   border-style: solid;
   margin: 10px;
-  background-color: olive;
+  padding: 1em;
+  background-color: #fdecd8;
 }
-#score    { grid-column: 1; grid-row: 3; border-style: solid; margin: 10px; }
-#stats    { grid-column: 1; grid-row: 2; align-self: start; border-style: solid; margin: 10px; }
-#board    { grid-column: 2; grid-row: 1 / span 2;  border-style: solid; margin: 10px; padding: 10px;}
-#controls { grid-column: 2; grid-row: 3; justify-self: center; border-style: solid; margin: 10px; }
+#score    { 
+  grid-column: 1;
+  grid-row: 3;
+  border-style: solid;
+  margin: 10px;
+  padding: 1em;
+  background-color: #bbc8d0;
+ }
+
+
+#stats    { 
+  grid-column: 1;
+   grid-row: 2; 
+   align-self: start;
+    border-style: solid;
+     margin: 10px; 
+     padding: 1em;
+     background-color: #f7f7a3;
+   }
+
+
+#board    { 
+
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  border-style: solid; 
+  margin: 10px;
+  padding: 1em;
+  background-color: #faeede;
+
+}
+
+
+#controls { grid-column: 2;
+ grid-row: 3;
+  justify-self: center;
+   border-style: solid;
+    margin: 10px;
+    padding: 1em;
+    background-color: #f7f7a3;
+ }
+
 
 
 @media (orientation: portrait) {
