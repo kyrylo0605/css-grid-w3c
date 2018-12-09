@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Segoe UI"!important, sans-serif;
-  background-image: url(stone-texture-1920.jpg);
+  background-image: url(stone-texture-1920_0000.jpg);
 }
 
 /**
@@ -154,4 +154,5 @@ p {
 
   font-size: 20px !important;
   font-family: "Segoe UI" !important;
+  text-transform: none;
 }
